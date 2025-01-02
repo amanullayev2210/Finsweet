@@ -966,19 +966,7 @@ a {
         margin-top: 8px;
         margin-left: 0px;
     }
-    /* header end */
-
-    /* team start */
-
-    .team_wrapper {
-        margin-block: 40px;
-    }
-    /* team end */
-    /* why start */
-    .why_wrapper {
-        margin-block: 40px;
-    }
-    /* why end */
+    /* header end */    
     /* mypost start */
     .mypost_tittle {
         font-size: 40px;
@@ -1007,6 +995,40 @@ a {
         margin-bottom: 250px;
     }
     /* login end */
+    /* team start */
+
+    .team_wrapper {
+        margin-top: 60px;
+        margin-bottom: 40px;
+        align-items: center;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .team_info {
+        padding-top: 10px;
+        padding-bottom: 40px;
+    }
+    /* team end */  
+    /* why start */
+    .why_wrapper {
+        margin-top: 40px;
+        margin-bottom: 80px;
+        flex-direction: column-reverse;
+        align-items: center;
+    
+        img {
+            width: 100%;
+            }
+        }
+    
+    .why_info {
+        padding-top: 10px;
+        padding-bottom: 40px;
+        }
+    /* why end */
 }
 
 @media only screen and (max-width: 700px) {
@@ -1132,8 +1154,20 @@ a {
     }
     /* our end */
     /* team start */
+
     .team_wrapper {
-        margin-block: 40px;
+        margin-top: 60px;
+        margin-bottom: 40px;
+        align-items: center;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .team_info {
+        padding-top: 10px;
+        padding-bottom: 40px;
     }
 
     .team_desc {
@@ -1145,22 +1179,34 @@ a {
         font-size: 14px;
         line-height: 22px;
     }
-    /* team end */
+    /* team end */  
     /* why start */
     .why_wrapper {
-        margin-block: 40px;
-    }
-
+        margin-top: 40px;
+        margin-bottom: 80px;
+        flex-direction: column-reverse;
+        align-items: center;
+    
+        img {
+            width: 100%;
+            }
+        }
+    
+    .why_info {
+        padding-top: 10px;
+        padding-bottom: 40px;
+        }
     .why_desc {
         font-size: 18px;
-        line-height: 26px;
+          line-height: 26px;
     }
-
+    
     .why_text {
         font-size: 14px;
         line-height: 22px;
     }
     /* why end */
+    
     /* user start */
     .user-info_desc {
         margin-top: 50px;
