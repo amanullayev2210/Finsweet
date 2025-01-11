@@ -5,7 +5,8 @@
     --light-yellow-color: #FBF6EA;
     --lavender-color: #F4F0F8;
     --dark-grey-color: #4C4C4C;
-    --medium-grey-color: #6d6e76;
+    --medium-grey-color: #6D6E76;
+    --light-grey-color: #9698A6;
     --purple-color: #592EA9;
     --yellow-color: #FFD050;
     --font-sen: "Sen", serif;
@@ -689,7 +690,7 @@ a {
 .category_item {
     max-width: 296px;
     width: 100%;
-    border: 1px solid #6d6e76;
+    border: 1px solid var(--medium-grey-color)
 }
 
 .startup {
@@ -960,7 +961,7 @@ a {
         font-weight: 500;
         font-size: 28px;
         line-height: 32.2px;
-        color: #9698A6;
+        color: var(--light-grey-color);
       }
     .sitenav_item_login {
         margin-top: 8px;
