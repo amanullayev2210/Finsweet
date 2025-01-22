@@ -892,11 +892,6 @@ a {
         line-height: 20px;
     }
     /* why end */
-    /* login start */
-    .login_wrapper {
-        margin-bottom: 200px;
-    }
-    /* login end */
 }
 
 @media only screen and (max-width: 992px) {
@@ -991,11 +986,6 @@ a {
         margin-bottom: 35px;
     }
     /* user end */
-    /* login start */
-    .login_wrapper {
-        margin-bottom: 250px;
-    }
-    /* login end */
     /* team start */
 
     .team_wrapper {
@@ -1234,16 +1224,6 @@ a {
         margin-bottom: 80px;
     }
     /* user end */
-    /* register start */
-    .register_wrapper {
-        margin-top: 50px;
-        margin-bottom: 128px;
-    }
-
-    .register-form_wrapper {
-        margin-top: 52px;
-    }
-    /* register end */
 }
 
 @media only screen and (max-width: 375px) {
@@ -1343,16 +1323,6 @@ a {
         margin-bottom: 60px;
     }
     /* user end */
-    /* register start */
-    .register_tittle {
-        font-size: 44px;
-        line-height: 56px;
-    }
-    .register_wrapper {
-        margin-top: 40px;
-        margin-bottom: 98px;
-    }
-    /* register end */
 }
 /* responsive end */
 
