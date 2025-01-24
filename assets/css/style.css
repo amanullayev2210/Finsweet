@@ -937,6 +937,10 @@ a {
         color: var(--white-color);
       }
 
+    .close {
+        display: none;
+    }
+
     .site_nav {
         position: absolute;
         top: 100%;
